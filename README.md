@@ -38,8 +38,7 @@ A modern web application built with the MERN stack (MongoDB, Express.js, React, 
 3. Create a `.env` file in the backend directory with the following variables:
    ```
    PORT=5000
-   MONGODB_URI=mongodb+srv://vahorarizwan09:Rizwan%4025@cluster0.tjegdat.mongodb.net/employee?retryWrites=true&w=majority&appName=Cluster0
-   JWT_SECRET=your_jwt_secret_key
+   MONGODB_URI=
    ```
 
 4. Start the backend server:
