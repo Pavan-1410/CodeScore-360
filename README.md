@@ -73,8 +73,8 @@ A modern web application built with the MERN stack (MongoDB, Express.js, React, 
   - Password: welcome123
 
 - **Manager**
-  - Email: manager@example.com
-  - Password: manager123
+  - Email: vahorarizwan09@gmail.com
+  - Password: Rizwan@25
 
 - **Admin**
   - Email: admin@example.com
