@@ -1,3 +1,7 @@
+
+# CodeScore-360
+Our final year Project
+=======
 # AI-Driven Employee Management System
 
 A modern web application built with the MERN stack (MongoDB, Express.js, React, Node.js) for managing employees, tasks, and performance metrics with AI-powered insights.
@@ -34,7 +38,7 @@ A modern web application built with the MERN stack (MongoDB, Express.js, React, 
 3. Create a `.env` file in the backend directory with the following variables:
    ```
    PORT=5000
-   MONGODB_URI=mongodb://localhost:27017/employee_management
+   MONGODB_URI=mongodb+srv://vahorarizwan09:Rizwan%4025@cluster0.tjegdat.mongodb.net/employee?retryWrites=true&w=majority&appName=Cluster0
    JWT_SECRET=your_jwt_secret_key
    ```
 
@@ -66,11 +70,11 @@ A modern web application built with the MERN stack (MongoDB, Express.js, React, 
 
 - **Employee**
   - Email: employee@example.com
-  - Password: employee123
+  - Password: welcome123
 
 - **Manager**
-  - Email: manager@example.com
-  - Password: manager123
+  - Email: vahorarizwan09@gmail.com
+  - Password: Rizwan@25
 
 - **Admin**
   - Email: admin@example.com
@@ -117,3 +121,4 @@ ai-employee-management/
 ## License
 
 This project is licensed under the MIT License.
+>>>>>>> feature
