@@ -8,9 +8,18 @@ function AddEmployee() {
     designation: ""
   });
   const handleSubmit = async (e) => {
+    
     e.preventDefault();
     try{
-    await API.post("/employees", employee);
+      const token=localStorage.getItem("token");
+    await API.post("/employees", employee,{
+        headers: {
+      Authorization: `Bearer ${token}`
+    }     
+    }
+     
+
+    );
     alert("Employee added successfully!");
     setEmployee({ name: "", email: "", designation: "" });
     } catch (error) {
