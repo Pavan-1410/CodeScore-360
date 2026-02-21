@@ -8,6 +8,18 @@ function AddEmployee() {
     designation: ""
   });
   const handleSubmit = async (e) => {
+    
+    e.preventDefault();
+    try{
+      const token=localStorage.getItem("token");
+    await API.post("/employees", employee,{
+        headers: {
+      Authorization: `Bearer ${token}`
+    }     
+    }
+     
+
+    );
     e.preventDefault();
     try{
     await API.post("/employees", employee);
