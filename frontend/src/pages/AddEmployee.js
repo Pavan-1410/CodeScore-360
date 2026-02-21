@@ -20,12 +20,10 @@ function AddEmployee() {
      
 
     );
-    e.preventDefault();
-    try{
-    await API.post("/employees", employee);
+
     alert("Employee added successfully!");
     setEmployee({ name: "", email: "", designation: "" });
-    } catch (error) {
+    }catch (error) {
       console.error("Error adding employee:", error);
       alert("Error adding employee. Please try again.");
     }
@@ -96,9 +94,8 @@ function AddEmployee() {
 
   )
   
-    
-  
-    
 }
+  
+  
 
 export default AddEmployee;
